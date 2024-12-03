@@ -99,7 +99,7 @@
     border-radius: 10px; 
     
     /* Propriedades da imagem de fundo */
-    background: url('zecapagodinho.jpg') no-repeat center center;
+    background: url('periclão.png') no-repeat center center;
     background-size: cover; /* Faz a imagem preencher o banner */
     overflow: hidden; /* Garante que o conteúdo dentro do elemento siga o border-radius */
 }
