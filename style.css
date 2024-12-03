@@ -188,34 +188,39 @@
 }
 
 
-/* Estilos para as linhas de conteúdo */
 .conteudo-secundario-primeiralinha,
 .conteudo-secundario-segundalinha,
 .conteudo-secundario-terceiralinha {
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
+  padding: 0 50px; 
 }
+
 
 .conteudo-secundario-primeiralinha div,
 .conteudo-secundario-segundalinha div,
 .conteudo-secundario-terceiralinha div {
-  padding: 20px;
+
   text-align: center;
-  width: 23%; /* Define 4 itens por linha */
-  border: 0.5px solid #FFF100; /* Cor da borda amarela */
+  width: 20%; 
+  border-top: 0.5px solid #FFF100; 
+  border-right: 0.5px solid #FFF100; 
+  border-bottom: 0.5px solid #FFF100; 
+  border-left: 1px solid #FFF100; 
+  box-sizing: border-box;
 }
 
 /* Estilos das imagens */
 .conteudo-secundario-imagem {
   width: 100%;
-  height: auto;
+  height: 70%;
 }
 
 /* Estilos dos títulos (h3) */
 .conteudo-secundario-titulo {
   font-size: 1.1em;
-  margin: 15px 0 5px;
+  margin: 7px 0 5px;
   color: #000000;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
